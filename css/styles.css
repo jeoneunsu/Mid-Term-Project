@@ -7942,7 +7942,7 @@ p {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 20% !important;
 }
 
 .rounded-pill {
@@ -11328,6 +11328,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
+  padding: 20px;
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
   
   /* 임시 지정 */
