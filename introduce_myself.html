@@ -1,46 +1,112 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>
-            introduce_jeoneunsu
-        </title>
-        <link rel="stylesheet" type="text/css" href="introduce.css">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Introduce Jeon Eunsu</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
-
     <body>
-        <audio src="media/music.mp3" controls autoplay loop>
-            브라우저가 audio 태그를 지원하지 않습니다.</audio>
-        <nav>
-            <ul class="gnb">
-                <li><a href="#profile">Profile</a></li>
-                <li><a href="#doing">Doing</a></li>
-                <li><a href="#mylove">My love</a></li>
-                <li><a href="#"></a></li>
-            </ul>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">전은수's portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+        <!-- Header - set the background image for the header in the line below-->
+        <header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
+            <div class="text-center my-5">
+                <img class="img-fluid rounded-circle mb-4" style="height: 40vmin;" src="media/나2.jpg" alt="..." />
+                <h1 class="text-white fs-3 fw-bolder">Eunsu Jeon</h1>
+                <p class="text-white-50 mb-0">1999-12-04</p>
+                <p class="text-white-50 mb-0">Seoul, Korea</p>
+                <p class="text-white-50 mb-0">jysrho12@naver.com</p>
+                <p class="text-white-50 mb-0">010-6667-1253</p>
+                <a href="https://www.instagram.com/si1vers_u/" target="_blank">Instagram</a>
+            </div>
+        </header>
+        <!-- Content section-->
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>기본정보</h2>
+                        <p class="mb-0">소속: 단국대학교 SW융합대학 소프트웨어학과</p>
+                        <p class="mb-0">학번: 32184024 </p>
+                        <p class="mb-0">학년/학기: 4학년 1학기</p>
+                        <p class="mb-0">교직: 
+                        <button id="show">중등학교 정교사(2급)(정보 · 컴퓨터)</button></p>
+                            <div class="background">
+                                <div class="window">
+                                    <div class="popup">
+                                        <h3>🎀교직이수 현황🎀</h3>
+                                        <h5>▶교육봉사 60시간 (/60시간)</h5>
+                                        <h5>▶인적성 검사 0회 (/2회)</h5>
+                                        <h5>▶심폐소생술 1회 (/2회)</h5>
+                                        <hr>
+                                        <h5>▶학교현장실습 상세정보</h5>
+                                        <p class="mb-0">실습학교: <a href="https://ogeum.sen.hs.kr/" target="_blank">오금고등학교</p></a>
+                                        <p class="mb-0">실습기간: 2022-05-02 ~ 2022-05-27</p>
+                                        <p class="mb-0">담당교과: 정보 과목🖥️</p>
+                                        <p class="mb-0">담당학급: 1학년 6반</p>
+                                        <p class="mb-0">실습내용: 
+                                            <li>조례 및 종례</li>
+                                            <li>수업 참관</li>
+                                            <li>수업 실연</li>
+                                            <li>학생 상담</li>
+                                            <li>교문 및 급식 지도</li>
+                                        </p>
+                                        <button id="close">x</button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        <hr>
+
+                        
         
-        <div class="that">
-        <h1 id="profile">About Me</h1>      
-            <img src="media/eunsu.jpg" width="300">
-            <h2>Eunsu Jeon</h2>
-            <p>Seoul, Korea</p>
-            <p>jysrho12@naver.com</p>
-            <h4><a href="https://www.instagram.com/eun_su_12/" target="_blank">Instagram</a></h4>
-
-            <h2 id="doing">Doing</h2>
-            <p>단국대학교 소프트웨어학과 4학년 재학 중...</p>
-            <p>정보컴퓨터 교직과정 이수 중...</p>
-
-            <h2 id="mylove">My love</h2>
-            <img src="media/adam.jpg" width="300">
-            <h3>Adam Jeon</h3>
-            <p>#우리 집 서열1위    #은수의 애완견</p>
-
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image element - set the background image for the header in the line below-->
+        <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 20rem"></div>
         </div>
-
-
-        
-
-
-
+        <!-- Content section-->
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>My love</h2>
+                        <p class="lead">...</p>
+                        <p class="mb-0">#이름은 전아담  #우리 집 서열1위    #은수의 애완견</p>
+                        <img src="media/adam.jpg" width="300">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
 </html>
